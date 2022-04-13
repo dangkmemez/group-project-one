@@ -13,3 +13,16 @@ body {
     width: 500px;
     padding: 20px 20px;
 }
+.recContainer {
+    flex-direction: column;
+}
+
+.movieContainer {
+    flex-direction: column;
+}
+
+img {
+    align-self: center;
+    max-width: 400px;
+    max-height: 400px;
+}
