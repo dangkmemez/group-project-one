@@ -13,24 +13,37 @@
 <body>
     <header>
         <div>
-<<<<<<< HEAD
             <h1 class="title is-1">Night-In</h1>
             <p class="subtitle is-4">No plans? Let's fix that. Click buttons below to get your meal + movie suggestion.</p>
-=======
-            <h1>Night In</h1>
-            <p>hello</p>
->>>>>>> 536f8e95e4d2efc2d8869a1587bdf39a40c96182
         </div>
     </header>
 
     <!--container holding both buttons-->
     <div class="buttons">
-        <button class="button is-success is-hovered">Cookin'</button>
+        <button class="button is-success is-hovered container recipe">Cookin'</button>
 
-        <button class="button is-success is-hovered">Watchin'</button>
+        <button id="movie" class="button is-success is-hovered container movie">Watchin'</button>
     </div>
 
     <!--containers/rows/columns for recipe + movies-->
+    <main id="container" class="">
+        <div class="box recContainer" id="recipe">
+            <h1></h1>
+            <ol></ol>
+
+        </div>
+
+        <div class="movieContainer box" id="movie-title">
+            <h1></h1>
+            <img src= "" id="img-container"></img>
+
+
+        </div>
+
+    </main>
+
+    <!--local storage-->
+
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/script2.js"></script>
 </body>
