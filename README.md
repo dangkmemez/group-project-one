@@ -1,4 +1,4 @@
-# group-project-one
+# Night-In
 
 ## Purpose
 
@@ -9,7 +9,7 @@ A website created with the purpose of generating a random food recipe and movie 
 - HTML
 - CSS
 - JavaScript
-- Bulma
+- Bulma CSS library
 - OMBd API
 - Spoonacular API
 
