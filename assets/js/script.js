@@ -41,6 +41,7 @@ function getRandomRecipe(e) {
          title.innerHTML = returnRec.title;
         for(let i = 0; i < returnInstruct.length; i++) {
             console.log(returnInstruct[i].step, returnInstruct[i].number);
+            console.log(title.innerHTML);
             //add steps
             let step = document.createElement('li');
             step.classList.add("step");

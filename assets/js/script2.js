@@ -6,6 +6,9 @@ var movieButtonEl = document.querySelector("#movie");
 var movieCont = document.getElementsByClassName('movieContainer')[0];
 var movieTitle = movieCont.querySelector('h1');
 var imgCont = document.getElementById("img-container");
+var saveBtnEl = document.getElementById('save-button')
+//local storage empty array 
+var comboSave = [];
 
 //array to insert random letter for movie titles
 const randomLetter = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
@@ -42,6 +45,16 @@ var randomYValue = randomYear[Math.floor(randomYear.length * Math.random())];
   //}
   })
 };
+
+//local storage function
+function saveCombo() {
+console.log(movieTitle.textContent);
+}
+
+
+// event listener for save combo
+saveBtnEl.addEventListener('click', saveCombo);
+
 
 //event listener to button click
 movieButtonEl.addEventListener("click", getMovieTitle, );
