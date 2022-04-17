@@ -39,7 +39,7 @@ var randomYValue = randomYear[Math.floor(randomYear.length * Math.random())];
   //     imgCont.setAttribute("src", "./assets/256px-Loader.gif")
   // } else{
     imgCont.setAttribute("src", data.Poster);
-  // }
+  //}
   })
 };
 
