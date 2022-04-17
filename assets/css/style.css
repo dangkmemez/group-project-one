@@ -1,11 +1,14 @@
 body {
     text-align: center;
     align-items: center;
+    
 }
+
 
 .buttons {
     padding: 25px 400px 25px 400px;
 }
+
 
 .box {
     display: inline-flex;
@@ -15,14 +18,31 @@ body {
 }
 .recContainer {
     flex-direction: column;
+    text-align: left;
+    height: 400px;
+    width: 400px;
+   
+}
+
+.recContainer h1 {
+    text-align: center;
+    font-size: 24px;
+
 }
 
 .movieContainer {
     flex-direction: column;
+    height: 400px;
+    width: 400px;
+   
+}
+
+.movieContainer h1 {
+    font-size: 24px;
 }
 
 img {
     align-self: center;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 300px;
+    max-height: 300px;
 }
