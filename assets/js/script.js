@@ -3,6 +3,7 @@ let recipeBtn = document.getElementsByClassName("recipe")[0];
 let recipeCont = document.getElementsByClassName('recContainer')[0];
 let list = recipeCont.querySelector('ol');
 let title = recipeCont.querySelector('h1');
+let ingredientList = recipeCont.querySelector('ul');
 recipeBtn.addEventListener("click", getRandomRecipe);
 
 
@@ -24,6 +25,16 @@ function getRandomRecipe(e) {
         console.log(data);
         let returnRec = data.recipes[0];
         let returnInstruct = returnRec.analyzedInstructions[0].steps;
+        let returnIngr = returnRec.extendedIngredients[0].id;
+
+        // console.log(returnIngr);
+        // for(let i = 0; i < returnIngr.length; i++) {
+        //     console.log(returnIngr[i].id, returnIngr[i].number);
+        //     //add steps
+        //     let ingredients = document.createElement('li');
+        //     ingredients.classList.add("ingredients");
+        //     ingredients.innerHTML = returnIngr[i].id; 
+          
 
         console.log(returnInstruct);
          //add title
@@ -35,9 +46,14 @@ function getRandomRecipe(e) {
             step.classList.add("step");
             step.innerHTML = returnInstruct[i].step;
 
+          
 
+            // ingredientList.append(ingredients);
             list.append(step);
+            
 
         }
       })
-    } 
+    }
+    
+  
