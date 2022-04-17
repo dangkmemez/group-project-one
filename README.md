@@ -21,5 +21,8 @@ https://dangkmemez.github.io/group-project-one/
 ## Contribution
 
 Erika Cannon
+https://github.com/cannonel
 Caroline Frye
+https://github.com/dangkmemez
 Darrin Robinson
+https://github.com/Darobinson20
