@@ -28,14 +28,14 @@
     <!--containers/rows/columns for recipe + movies-->
     <main id="container" class="">
         <div class="box recContainer" id="recipe" style="overflow-y:scroll;">
-            <h1></h1>
+            <h1 id="recipeTitle"></h1>
             <ol></ol>
             <ul></ul>
 
         </div>
 
         <div class="movieContainer box" id="movie-title">
-            <h1></h1>
+            <h1 id="movieTitle"></h1>
             <img src= "" id="img-container"></img>
 
 
@@ -43,10 +43,22 @@
 
     </main>
 
-    <!--local storage-->
+      <!--local storage-->
+
+    <div class="save-combo" id="save-combo">
+        <button id="save-button" class="button is-success is-hovered">Save This Combo</button>
+        <h2>            Last Saved Combo: 
+        </h2>
+        <div id="save-history">
+            <!--print saved recipe + movie title here-->
+        </div>
+    </div>
+    
+
+  
 
     <script src="./assets/js/script.js"></script>
-    <script src="./assets/js/script2.js"></script>
+    <!-- <script src="./assets/js/script2.js"></script> -->
 </body>
 
 </html>
